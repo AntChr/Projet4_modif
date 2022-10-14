@@ -340,6 +340,18 @@ a:hover {
 {
     font-size: 1.1em;
 }
+.navbar.row a 
+{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757!important;
+}
+.row a
+{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: white!important;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -609,8 +621,7 @@ a[data-lightbox]:hover img {
 }
 
 label,
-.btn,
-a {
+.btn{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
