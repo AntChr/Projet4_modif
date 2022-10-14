@@ -58,6 +58,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+
 }
 
 .bg-repeat {
@@ -288,7 +289,57 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.navbar.contact
+{
+    display: flex;
+    justify-content: space-around;
 
+}
+.nav-contact
+{
+    display: flex;
+    position: relative;
+    left: 300px;
+    list-style-type: none;
+}
+.nav-contact a
+{
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+.text-center.hero-bloc-text.tc-white
+{
+    position: relative;
+    z-index: 3;
+}
+.text-center.mg-lg.tc-white.tight-width-whitespace
+{
+    position: relative;
+    z-index: 3;
+}
+#name
+{
+   margin-left: 450px; 
+}
+#email
+{
+    margin-left: 382px;
+}
+#input_504
+{
+    margin-left: 236px;
+}
+#message
+{
+    position: relative;
+    left: 488px;
+    bottom: 16px;
+}
+.col-sm-6 p
+{
+    font-size: 1.1em;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -781,6 +832,29 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .nav-contact {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    #name
+{
+   margin-left: 0px; 
+}
+#email
+{
+    margin-left: 0px;
+}
+#input_504
+{
+    margin-left: 0px;
+}
+#message
+{
+    position: inherit;
+}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -796,6 +870,29 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    .nav-contact {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    #name
+    {
+       margin-left: 0px; 
+    }
+    #email
+    {
+        margin-left: 0px;
+    }
+    #input_504
+    {
+        margin-left: 0px;
+    }
+    #message
+    {
+        position: inherit;
+    }
     .container {
         width: 100%;
     }
