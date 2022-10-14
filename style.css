@@ -308,6 +308,10 @@ a:hover {
     margin-right: 20px;
 
 }
+.nav-contact a:visited
+{
+    color: #575757;
+}
 .text-center.hero-bloc-text.tc-white
 {
     position: relative;
